@@ -22,6 +22,8 @@ abstract class SocketHandler {
   protected updateLists(): void {
     this.io.emit(ListEvent.UPDATE, this.db.getData());
   }
+
+  //TODO logging events
 }
 
 export { SocketHandler };
