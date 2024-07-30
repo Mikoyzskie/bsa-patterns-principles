@@ -1,3 +1,5 @@
+import React from "react";
+
 import type { DroppableProvided } from "@hello-pangea/dnd";
 import { Droppable } from "@hello-pangea/dnd";
 
@@ -18,7 +20,7 @@ const CardsList = ({ listId, listType, cards }: Props) => {
       {(dropProvided: DroppableProvided) => (
         <ListWrapper {...dropProvided.droppableProps}>
           <ScrollContainer>
-            <List cards={cards} dropProvided={dropProvided} />
+            <List id={listId} cards={cards} dropProvided={dropProvided} />
           </ScrollContainer>
         </ListWrapper>
       )}

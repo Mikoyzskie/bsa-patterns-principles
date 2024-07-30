@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { CreatorInput } from '../../primitives/creator-input';
 import { ColumnCreatorContainer } from '../styled/column-creator-container';
 

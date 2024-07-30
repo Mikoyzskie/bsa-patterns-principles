@@ -1,1 +1,2 @@
-export { ReorderService } from "./reorder.service";
+export { ReorderService, ReorderProxy } from "./reorder.service";
+export { ObserverService } from "./observer.service";

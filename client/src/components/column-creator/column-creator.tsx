@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { ColumnCreatorInput } from './components/column-creator-input';
 import { Container } from './styled/container';
 

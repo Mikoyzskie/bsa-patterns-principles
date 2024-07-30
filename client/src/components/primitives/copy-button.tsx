@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { colors } from '@atlaskit/theme';
 
 import { Icon } from '../icon/icon';
